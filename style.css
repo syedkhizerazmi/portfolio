@@ -26,6 +26,33 @@ nav{
 .spa1:hover{
 
     background-color: #658769;
+    border-radius: 5px;
+    transition: 1s;
+
+}
+.spa2:hover{
+        background-color: #658769;
+    border-radius: 5px;
+    transition: 1s;
+
+
+}
+.spa3:hover{
+        background-color: #658769;
+    border-radius: 5px;
+    transition: 1s;
+
+}
+.spa4:hover{
+        background-color: #658769;
+    border-radius: 5px;
+    transition: 1s;
+
+}
+.spa5:hover{
+        background-color: #658769;
+    border-radius: 5px;
+    transition: 1s;
 
 }
 .article{
@@ -88,6 +115,9 @@ button{
      outline: none;
 
 }
+button:hover{
+    background-color: #12771c;
+}
 .deatail{
 
     font-size: 20px;
@@ -96,12 +126,13 @@ button{
 
     height: 50px;
     width: 50px;
-    background-color: grey;
+    background-color: #636161;
     border-radius: 500%;
     margin: -28px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 
 }
 .links{
@@ -121,6 +152,7 @@ button{
     flex-wrap: wrap;
     flex: 1;
 
+
   
 }
 .abou{
@@ -139,21 +171,73 @@ button{
     box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
 
 }
+.bar{
+    display: none;
+}
 .about{
     flex-direction: column;
-    max-width: 40%;
+    max-width: 43%;
     margin: 10px;
 }
 .info{
     flex-direction: column;
     margin:10px;
+    
+    /*width: 35%;*/
+    
+    
 }
 .inf{
     margin:8px 15px 8px 0px;
-    font-weight: bold;
-    margin-right: 15%;
+    
+    word-break: break-all;
 
 }
 .info-head{
-    margin-right: 15%;
+    
+}
+.twit:hover{
+    color: #1ca1f2;
+        
+}
+.goole-:hover{
+    background-color: #ce4539;
+}
+.instagram:hover{
+  
+     color: #bc3980 ;
+     font-weight: bold;
+}
+.link:hover{
+    font-size: 27px;
+}
+.git:hover{
+    color: #24292e;
+        
+}
+@media only screen and (max-width: 650px){
+    .head{
+        display: none;
+    }
+    .div{
+        flex: 1;
+
+    }
+    .bar{
+        display: flex;
+        font-size: 20px;
+
+    }
+    h1{
+        font-size: 30px;
+    }
+
+}
+@media only screen and (max-width: 850px){
+
+     .div{
+        flex: 1;
+
+    }
+
 }
