@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
     <script src="script.js"></script>
     <link rel="icon" href="favicon.ico">
     <title>S.M Khizer</title>
@@ -24,7 +25,16 @@
         <span class="head spa3">Portfolio</span>
         <span class="head spa4">Experience</span>
         <span class="head spa5">Contact</span>
-        <span class="bar"><i class="fas fa-bars"></i></span>
+        <span class="bar slideInRight">
+            <i class="fas fa-bars" onclick="sidebar()"></i>
+            <span class="hidden-span">
+                <span class="">About</span>
+                <span class="">Skills</span>
+                <span class="">Portfolio</span>
+                <span class="">Experience</span>
+                <span class="">Contact</span>
+            </span>
+        </span>
 
     </div>
 

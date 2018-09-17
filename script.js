@@ -11,4 +11,8 @@ $(document).ready(function(){
 	  }
   })
 })
+function sidebar(){
 
+	document.querySelector(".hidden-span").style.display = "flex";
+	document.querySelector(".hidden-span").style.display = "flex";
+}
