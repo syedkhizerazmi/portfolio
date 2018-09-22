@@ -12,8 +12,9 @@ $(document).ready(function() {
 function sidebar() {
 
     document.querySelector(".hidden-span").style.display = "flex";
-    document.querySelector(".hidden-span").style.display = "flex";
+    // document.querySelector(".hidden-span").style.display = "flex";
 }
+
 
 function fun() {
 
@@ -21,9 +22,11 @@ function fun() {
 		          <div class="html-c">Html</div>
 	`;
 
-    document.querySelector(".html-c").style.width = `60%`;
+    document.querySelector(".html-c").style.width = `80%`;
     document.querySelector(".html-c").style["background-color"] = `green`;
-    document.querySelector(".html-c").style.transation = `2s`;
+    document.querySelector(".html-c").style.transation = `4s`;
+    
+    
 
 
 
